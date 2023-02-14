@@ -1,0 +1,15 @@
+C:\Users\PC Admin\RiderProjects\Labs\laboratorky\prakt1\bin\Debug\net6.0\prakt1.exe
+C:\Users\PC Admin\RiderProjects\Labs\laboratorky\prakt1\bin\Debug\net6.0\prakt1.deps.json
+C:\Users\PC Admin\RiderProjects\Labs\laboratorky\prakt1\bin\Debug\net6.0\prakt1.runtimeconfig.json
+C:\Users\PC Admin\RiderProjects\Labs\laboratorky\prakt1\bin\Debug\net6.0\prakt1.dll
+C:\Users\PC Admin\RiderProjects\Labs\laboratorky\prakt1\bin\Debug\net6.0\prakt1.pdb
+C:\Users\PC Admin\RiderProjects\Labs\laboratorky\prakt1\obj\Debug\net6.0\prakt1.csproj.AssemblyReference.cache
+C:\Users\PC Admin\RiderProjects\Labs\laboratorky\prakt1\obj\Debug\net6.0\prakt1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC Admin\RiderProjects\Labs\laboratorky\prakt1\obj\Debug\net6.0\prakt1.AssemblyInfoInputs.cache
+C:\Users\PC Admin\RiderProjects\Labs\laboratorky\prakt1\obj\Debug\net6.0\prakt1.AssemblyInfo.cs
+C:\Users\PC Admin\RiderProjects\Labs\laboratorky\prakt1\obj\Debug\net6.0\prakt1.csproj.CoreCompileInputs.cache
+C:\Users\PC Admin\RiderProjects\Labs\laboratorky\prakt1\obj\Debug\net6.0\prakt1.dll
+C:\Users\PC Admin\RiderProjects\Labs\laboratorky\prakt1\obj\Debug\net6.0\refint\prakt1.dll
+C:\Users\PC Admin\RiderProjects\Labs\laboratorky\prakt1\obj\Debug\net6.0\prakt1.pdb
+C:\Users\PC Admin\RiderProjects\Labs\laboratorky\prakt1\obj\Debug\net6.0\prakt1.genruntimeconfig.cache
+C:\Users\PC Admin\RiderProjects\Labs\laboratorky\prakt1\obj\Debug\net6.0\ref\prakt1.dll
