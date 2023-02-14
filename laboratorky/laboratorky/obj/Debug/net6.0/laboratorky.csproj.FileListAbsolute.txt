@@ -1,0 +1,15 @@
+C:\Users\PC Admin\RiderProjects\laboratorky\laboratorky\bin\Debug\net6.0\laboratorky.exe
+C:\Users\PC Admin\RiderProjects\laboratorky\laboratorky\bin\Debug\net6.0\laboratorky.deps.json
+C:\Users\PC Admin\RiderProjects\laboratorky\laboratorky\bin\Debug\net6.0\laboratorky.runtimeconfig.json
+C:\Users\PC Admin\RiderProjects\laboratorky\laboratorky\bin\Debug\net6.0\laboratorky.dll
+C:\Users\PC Admin\RiderProjects\laboratorky\laboratorky\bin\Debug\net6.0\laboratorky.pdb
+C:\Users\PC Admin\RiderProjects\laboratorky\laboratorky\obj\Debug\net6.0\laboratorky.csproj.AssemblyReference.cache
+C:\Users\PC Admin\RiderProjects\laboratorky\laboratorky\obj\Debug\net6.0\laboratorky.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC Admin\RiderProjects\laboratorky\laboratorky\obj\Debug\net6.0\laboratorky.AssemblyInfoInputs.cache
+C:\Users\PC Admin\RiderProjects\laboratorky\laboratorky\obj\Debug\net6.0\laboratorky.AssemblyInfo.cs
+C:\Users\PC Admin\RiderProjects\laboratorky\laboratorky\obj\Debug\net6.0\laboratorky.csproj.CoreCompileInputs.cache
+C:\Users\PC Admin\RiderProjects\laboratorky\laboratorky\obj\Debug\net6.0\laboratorky.dll
+C:\Users\PC Admin\RiderProjects\laboratorky\laboratorky\obj\Debug\net6.0\refint\laboratorky.dll
+C:\Users\PC Admin\RiderProjects\laboratorky\laboratorky\obj\Debug\net6.0\laboratorky.pdb
+C:\Users\PC Admin\RiderProjects\laboratorky\laboratorky\obj\Debug\net6.0\laboratorky.genruntimeconfig.cache
+C:\Users\PC Admin\RiderProjects\laboratorky\laboratorky\obj\Debug\net6.0\ref\laboratorky.dll
