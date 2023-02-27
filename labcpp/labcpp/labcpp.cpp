@@ -1,44 +1,73 @@
-#include <iostream>
+#include "vector.h"
 
-#include "header.h";
- int Point::GetX() const
-{
-    return x;
+
+void Input(Vector& vector) {
+    bool isInt = false;
+    int x1 = 0, x2 = 0, y1 = 0, y2 = 0;
+    std::cout << "Enter the first point\n";
+
+    std::cout << "Enter x:\n";
+    while (!isInt) {
+        isInt = static_cast<bool>(std::cin >> x1);
+        if (!isInt) {
+            std::cin.clear();
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            std::cout << "Invalid input. Enter an integer value.\n";
+        }
+    }
+
+    isInt = false;
+    std::cout << "Enter y:\n";
+    while (!isInt) {
+        isInt = static_cast<bool>(std::cin >> y1);
+        if (!isInt) {
+            std::cin.clear();
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            std::cout << "Invalid input. Enter an integer value.\n";
+        }
+    }
+
+    std::cout << "Enter the second point\n";
+    std::cout << "Enter x:\n";
+    isInt = false;
+    while (!isInt) {
+        isInt = static_cast<bool>(std::cin >> x2);
+        if (!isInt) {
+            std::cin.clear();
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            std::cout << "Invalid input. Enter an integer value.\n";
+        }
+    }
+
+    std::cout << "Enter y:\n";
+    isInt = false;
+    while (!isInt) {
+        isInt = static_cast<bool>(std::cin >> y2);
+        if (!isInt) {
+            std::cin.clear();
+            std::cout << "Invalid input. Enter an integer value.\n";
+        }
+    }
+
+    vector.setA(Point(x1, y1));
+    vector.setB(Point(x2, y2));
 }
- int Point::GetY() const
-{
-    return y;
-}
-Vector::Vector(const Point a, const Point b): A(a), B(b)
- {
-     Cords = Point(b.x - a.x, b.y - a.y);
- }
-std::pair<double, double> Vector::PolarCoorditates() const
- {
-     double r = sqrt((pow(Cords.x, 2)) + pow(Cords.y, 2));
-     double q = atan2(Cords.y, Cords.x);
 
-     return {q, r};
- }
-
-std::string Point::to_string() const
- {
-     std::ostringstream s ;
-     s << "X: " << x <<" ,Y: " <<y<<std::endl;
-     return s.str();
- };
-
-std::string Vector::to_string() const
-{   auto t = PolarCoorditates();
-    std::ostringstream s ;
-    s << "Point A: " << A.to_string() <<"Point B: " << B.to_string()<< "Coords: " << Cords.to_string()
-    <<"Polar: r=" << t.first <<" q=" << t.second << std::endl;
-    return s.str();
-};
 int main(int argc, char* argv[])
 {
-    auto* v = new Vector(Point(1,5),Point(3,7));
-    std::cout << v->to_string()<<std::endl;
-    delete v;
+    Vector vector;
+    while (true)
+    {
+        Input(vector);
+        std::cout << vector << std::endl;
+        std::cout << "Press any key to continue | Press Enter to exit\n";
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+        if (std::cin.get() == '\n')
+        {
+            system("cls"); // clear the console
+            break;
+        }
+        system("cls");
+    }
     return 0;
 }

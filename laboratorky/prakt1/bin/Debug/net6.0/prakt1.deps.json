@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "prakt1/1.0.0": {
+        "dependencies": {
+          "ClassLibrary1": "1.0.0"
+        },
         "runtime": {
           "prakt1.dll": {}
+        }
+      },
+      "ClassLibrary1/1.0.0": {
+        "runtime": {
+          "ClassLibrary1.dll": {}
         }
       }
     }
   },
   "libraries": {
     "prakt1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibrary1/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

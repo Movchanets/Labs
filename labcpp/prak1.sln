@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "labcpp", "labcpp\labcpp.vcxproj", "{148CF30A-B240-48E9-8880-16B5953D3F3B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StaticLibrary1", "StaticLibrary1\StaticLibrary1.vcxproj", "{AE2B0F45-EBC6-47BB-A9D7-809A9A0930E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -18,5 +20,13 @@ Global
 		{148CF30A-B240-48E9-8880-16B5953D3F3B}.Release|Win32.Build.0 = Release|Win32
 		{148CF30A-B240-48E9-8880-16B5953D3F3B}.Release|x64.ActiveCfg = Release|x64
 		{148CF30A-B240-48E9-8880-16B5953D3F3B}.Release|x64.Build.0 = Release|x64
+		{AE2B0F45-EBC6-47BB-A9D7-809A9A0930E7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AE2B0F45-EBC6-47BB-A9D7-809A9A0930E7}.Debug|Win32.Build.0 = Debug|Win32
+		{AE2B0F45-EBC6-47BB-A9D7-809A9A0930E7}.Debug|x64.ActiveCfg = Debug|x64
+		{AE2B0F45-EBC6-47BB-A9D7-809A9A0930E7}.Debug|x64.Build.0 = Debug|x64
+		{AE2B0F45-EBC6-47BB-A9D7-809A9A0930E7}.Release|Win32.ActiveCfg = Release|Win32
+		{AE2B0F45-EBC6-47BB-A9D7-809A9A0930E7}.Release|Win32.Build.0 = Release|Win32
+		{AE2B0F45-EBC6-47BB-A9D7-809A9A0930E7}.Release|x64.ActiveCfg = Release|x64
+		{AE2B0F45-EBC6-47BB-A9D7-809A9A0930E7}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal

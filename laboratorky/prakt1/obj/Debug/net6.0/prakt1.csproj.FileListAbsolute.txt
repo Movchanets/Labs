@@ -13,3 +13,6 @@ C:\Users\PC Admin\RiderProjects\Labs\laboratorky\prakt1\obj\Debug\net6.0\refint\
 C:\Users\PC Admin\RiderProjects\Labs\laboratorky\prakt1\obj\Debug\net6.0\prakt1.pdb
 C:\Users\PC Admin\RiderProjects\Labs\laboratorky\prakt1\obj\Debug\net6.0\prakt1.genruntimeconfig.cache
 C:\Users\PC Admin\RiderProjects\Labs\laboratorky\prakt1\obj\Debug\net6.0\ref\prakt1.dll
+C:\Users\PC Admin\RiderProjects\Labs\laboratorky\prakt1\bin\Debug\net6.0\ClassLibrary1.dll
+C:\Users\PC Admin\RiderProjects\Labs\laboratorky\prakt1\bin\Debug\net6.0\ClassLibrary1.pdb
+C:\Users\PC Admin\RiderProjects\Labs\laboratorky\prakt1\obj\Debug\net6.0\prakt1.csproj.CopyComplete

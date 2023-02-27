@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "2BDaW8qF8NhXrVAkimNKoR/eZezZCBt9uUguXtuvdnlCPow924B9lYbp8exmP8HEFhnl2Bp4x0j5u7c7xHaVoQ==",
+  "dgSpecHash": "INLeyYhbzfH1apwtyhQhsteW6skap1JxlD4BqixwpDSPOgLbVisAn4HGVXWpNzhzHUwl4TpR4Xy0EL/u+yPtSg==",
   "success": true,
   "projectFilePath": "C:\\Users\\PC Admin\\RiderProjects\\Labs\\laboratorky\\prakt1\\prakt1.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\PC Admin\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.12\\microsoft.netcore.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\PC Admin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.12\\microsoft.windowsdesktop.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\PC Admin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.12\\microsoft.aspnetcore.app.ref.6.0.12.nupkg.sha512",
+    "C:\\Users\\PC Admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.12\\microsoft.netcore.app.host.win-x64.6.0.12.nupkg.sha512"
+  ],
   "logs": []
 }

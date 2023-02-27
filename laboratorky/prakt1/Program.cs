@@ -1,61 +1,88 @@
 ﻿using System;
+using ClassLibrary1;
 
 namespace laboratorky
 {
-     class Program
+    class Program
     {
-        public class Point
+       static public void Input(ref Vector vector)
         {
-            public int X { get; set; }
-            public int Y { get; set; }
+            bool isInt = false;
+            int x1 = 0, x2 = 0, y1 = 0, y2 = 0;
+            Console.WriteLine("Enter the first point");
 
-            public Point(int x, int y)
+            Console.WriteLine("Enter x:");
+
+
+            while (!isInt)
             {
-                this.X = x;
-                this.Y = y;
+                isInt = int.TryParse(Console.ReadLine(), out x1);
             }
 
-            public override string ToString()
+            isInt = false;
+            Console.WriteLine("Enter y:");
+            while (!isInt)
             {
-                return $"x: {X},y: {Y}\n";
-            }
-        }
-
-        public class Vector
-        {
-            public Point Cords { get; set; }
-            public Point A { get; set; }
-            public Point B { get; set; }
-
-
-            public (double r, double q) PolarCoorditates()
-            {
-                var r = Math.Sqrt((Math.Pow(Cords.X, 2)) + Math.Pow(Cords.Y, 2));
-                var q = Math.Atan2(Cords.Y, Cords.X);
-
-                return (q = q, r = r);
+                isInt = int.TryParse(Console.ReadLine(), out y1);
             }
 
-            public Vector(Point a, Point b)
+            Console.WriteLine("Enter the second point");
+            Console.WriteLine("Enter x:");
+            isInt = false;
+            while (!isInt)
             {
-                this.A = a;
-                this.B = b;
-                Cords = new Point(b.X - a.X, b.Y - a.Y);
+                isInt = int.TryParse(Console.ReadLine(), out x2);
             }
 
-            public override string ToString()
+            Console.WriteLine("Enter y:");
+            isInt = false;
+            while (!isInt)
             {
-                var tuple = PolarCoorditates();
-                return
-                    $"Point A: {A.ToString()}Point B: {B.ToString()}Coords:{Cords.ToString()}Polar: r= {tuple.r}, q= {tuple.q}";
+                isInt = int.TryParse(Console.ReadLine(), out y2);
             }
+
+           
+                vector.A.X = x1;
+                vector.A.Y = y1;
+                vector.B.X = x2;
+                vector.B.Y = y2;
+            
         }
 
         static void Main(string[] args)
         {
-            Vector vector = new Vector(new Point(1, 5), new Point(3, 7));
-            var tuple = vector.PolarCoorditates();
-            Console.WriteLine(vector.ToString());
+            var vector = new Vector();
+
+            while (true)
+            {
+                Input(ref vector);
+                Console.WriteLine(vector);
+                Console.WriteLine("Press any key to continue | Press Enter to exit");
+                if (Console.ReadKey().Key == ConsoleKey.Enter)
+                {Console.Clear();
+                    break;
+                }
+
+                Console.Clear();
+            }
+
+            Vector[] vectors = new Vector[28];
+
+
+            for (int i = 0; i < vectors.Length / 2; i++)
+            {
+              // Input(ref vectors[i]); 
+              Random random = new Random();
+              vectors[i] = new Vector(new Point(random.Next(0, 100), random.Next(0, 100)),
+                  new Point(random.Next(0, 100), random.Next(0, 100))); // rand for test
+               Console.WriteLine(vectors[i]);
+            }
+
+            for (int i = 0; i <  vectors.Length / 2; i++)
+            {
+                vectors[vectors.Length - i - 1] = vectors[i];
+                Console.WriteLine(vectors[i]);
+            }
         }
     }
 }

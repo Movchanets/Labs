@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prakt1", "prakt1\prakt1.csproj", "{0E660F50-3319-4597-8374-7B9F5BBA5A56}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{F770C4B3-38BB-4607-8346-6868BA7F4923}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{0E660F50-3319-4597-8374-7B9F5BBA5A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E660F50-3319-4597-8374-7B9F5BBA5A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E660F50-3319-4597-8374-7B9F5BBA5A56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F770C4B3-38BB-4607-8346-6868BA7F4923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F770C4B3-38BB-4607-8346-6868BA7F4923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F770C4B3-38BB-4607-8346-6868BA7F4923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F770C4B3-38BB-4607-8346-6868BA7F4923}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
