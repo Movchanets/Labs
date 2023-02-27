@@ -89,6 +89,11 @@ public class Vector
         return new PolarCoorditates(r, q);
     }
 
+    public Vector(Vector vector)
+    {
+        this.A = vector.A;
+        this.B = vector.B;
+    }
     public Vector()
     {
         this.A = new Point();

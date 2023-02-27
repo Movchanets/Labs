@@ -35,6 +35,7 @@ private:
     Point b;
 public:
     Vector();
+    Vector(Vector& vector);
     Vector(Point a, Point b);
     Point getA() const;
     void setA(Point a);

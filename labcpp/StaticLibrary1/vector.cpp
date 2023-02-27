@@ -58,6 +58,12 @@ Vector::Vector() {
     b = Point();
 }
 
+Vector::Vector(Vector& vector)
+{
+    this->a = vector.getA();
+    this->b = vector.getB();
+}
+
 Vector::Vector(Point a, Point b) {
     this->a = a;
     this->b = b;

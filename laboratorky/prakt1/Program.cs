@@ -80,7 +80,7 @@ namespace laboratorky
 
             for (int i = 0; i <  vectors.Length / 2; i++)
             {
-                vectors[vectors.Length - i - 1] = vectors[i];
+                vectors[vectors.Length - i - 1] = new Vector(vectors[i]);
                 Console.WriteLine(vectors[i]);
             }
         }
