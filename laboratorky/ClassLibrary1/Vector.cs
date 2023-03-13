@@ -2,28 +2,41 @@
 
 public class Point
 {
-    private int x;
-    private int y;
+    private double _x;
+    private double _y;
 
-    public int X
+    public double X
     {
-        get => x;
-        set => x = value;
+        get => _x;
+        set => _x = value;
     }
 
-    public int Y
+    public double Y
     {
-        get => y;
-        set => y = value;
+        get => _y;
+        set => _y = value;
     }
 
+    public static Point operator +(Point point1, Point point2)
+    {
+        return new Point(point1.X + point2.X, point1.Y + point2.Y);
+    }
+    public static bool operator ! (Point point)
+    {
+        return point.X == 0 && point.Y == 0;
+    }
     public Point()
     {
         this.X = 0;
         this.Y = 0;
     }
+    public Point(Point point)
+    {
+        this.X = point.X;
+        this.Y = point.Y;
+    }
 
-    public Point(int x, int y)
+    public Point(double x, double y)
     {
         this.X = x;
         this.Y = y;
@@ -37,19 +50,19 @@ public class Point
 
 public class PolarCoorditates
 {
-    private double r;
-    private double q;
+    private double _r;
+    private double _q;
 
     public double R
     {
-        get => r;
-        set => r = value;
+        get => _r;
+        set => _r = value;
     }
 
     public double Q
     {
-        get => q;
-        set => q = value;
+        get => _q;
+        set => _q = value;
     }
 
     public PolarCoorditates(double r, double q)
@@ -63,12 +76,42 @@ public class Vector
 {
     public Point Cords => new Point(B.X - A.X, B.Y - A.Y);
 
-
+    public double Length => Math.Sqrt(Math.Pow(Cords.X, 2) + Math.Pow(Cords.Y, 2));
     public PolarCoorditates Polar => PolarCoorditates();
 
     private Point _a;
     private Point _b;
-
+    public static Vector operator /(Vector vector, double number)
+    {
+        return new Vector(vector.A, new Point(vector.B.X / number, vector.B.Y / number));
+    }
+    public  static Vector operator /(double number, Vector vector)
+    {
+        return new Vector(vector.A, new Point(vector.B.X / number, vector.B.Y / number));
+    }
+    public static Vector operator +(Vector vector1, Vector vector2)
+    {
+        return new Vector(new Point(vector1.A + vector2.A), new Point(vector1.B + vector2.B));
+    }
+    public static bool operator > (Vector vector1, Vector vector2)
+    {
+        return vector1.Length > vector2.Length;
+    }
+    public static bool operator < (Vector vector1, Vector vector2)
+    {
+        return vector1.Length < vector2.Length;
+    }
+    public static Vector operator -- (Vector vector)
+    {
+        Vector vector1 = new Vector(vector);
+        vector1.B.X--;
+        vector1.B.Y--;
+        return vector1;
+    }
+    public static bool operator ! (Vector vector)
+    {
+        return !vector.A || !vector.B; 
+    }
     public Point A
     {
         get => _a;
@@ -91,8 +134,8 @@ public class Vector
 
     public Vector(Vector vector)
     {
-        this.A = vector.A;
-        this.B = vector.B;
+        this.A = new Point(vector.A);
+        this.B = new Point(vector.B);
     }
     public Vector()
     {
@@ -105,6 +148,7 @@ public class Vector
         this.A = a;
         this.B = b;
     }
+    
 
     public override string ToString()
     {

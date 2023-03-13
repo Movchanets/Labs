@@ -55,19 +55,36 @@ void Input(Vector& vector) {
 
 int main(int argc, char* argv[])
 {
-    Vector vector;
-    while (true)
-    {
-        Input(vector);
-        std::cout << vector << std::endl;
-        std::cout << "Press any key to continue | Press Enter to exit\n";
-        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-        if (std::cin.get() == '\n')
-        {
-            system("cls"); // clear the console
-            break;
-        }
-        system("cls");
-    }
+    // Vector vector;
+    // while (true)
+    // {
+    //     Input(vector);
+    //     std::cout << vector << std::endl;
+    //     std::cout << "Press any key to continue | Press Enter to exit\n";
+    //     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    //     if (std::cin.get() == '\n')
+    //     {
+    //         system("cls"); // clear the console
+    //         break;
+    //     }
+    //     system("cls");
+    // }
+    Vector vector1(Point(1, 1), Point(2, 2));
+    std::cout << "vector1 / double" << std::endl;
+    vector1 = vector1 / 2.5;
+    std::cout << vector1 << std::endl;
+    std::cout << "double / vector" << std::endl;
+    vector1 = 1.5 / vector1;
+    std::cout << vector1 << std::endl;
+    Vector vector2(Point(1, 1), Point(2, 2));
+    std::cout << "vector1 + vector2" << std::endl;
+    vector1 = vector1 + vector2;
+    std::cout << vector1 << std::endl;
+    std::cout << "vector>vector2: " << (vector1 > vector2) << std::endl;
+    std::cout << "vector--" << std::endl;
+    std::cout << vector2 << std::endl;
+    std::cout << (vector2--)<< " : returned old value" << std::endl;
+    std::cout << vector2 << " : new value" << std::endl;
+    std::cout << "!vector :" <<std::boolalpha<< !vector2 << std::endl;
     return 0;
 }

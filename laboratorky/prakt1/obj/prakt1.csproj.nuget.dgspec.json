@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC Admin\\RiderProjects\\Labs\\laboratorky\\prakt1\\prakt1.csproj": {}
+    "D:\\RiderProjects\\Labs\\laboratorky\\prakt1\\prakt1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC Admin\\RiderProjects\\Labs\\laboratorky\\ClassLibrary1\\ClassLibrary1.csproj": {
+    "D:\\RiderProjects\\Labs\\laboratorky\\ClassLibrary1\\ClassLibrary1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC Admin\\RiderProjects\\Labs\\laboratorky\\ClassLibrary1\\ClassLibrary1.csproj",
+        "projectUniqueName": "D:\\RiderProjects\\Labs\\laboratorky\\ClassLibrary1\\ClassLibrary1.csproj",
         "projectName": "ClassLibrary1",
-        "projectPath": "C:\\Users\\PC Admin\\RiderProjects\\Labs\\laboratorky\\ClassLibrary1\\ClassLibrary1.csproj",
-        "packagesPath": "C:\\Users\\PC Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC Admin\\RiderProjects\\Labs\\laboratorky\\ClassLibrary1\\obj\\",
+        "projectPath": "D:\\RiderProjects\\Labs\\laboratorky\\ClassLibrary1\\ClassLibrary1.csproj",
+        "packagesPath": "C:\\Users\\slavi\\.nuget\\packages\\",
+        "outputPath": "D:\\RiderProjects\\Labs\\laboratorky\\ClassLibrary1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\slavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -53,43 +54,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.12, 6.0.12]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.12, 6.0.12]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.12, 6.0.12]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\PC Admin\\RiderProjects\\Labs\\laboratorky\\prakt1\\prakt1.csproj": {
+    "D:\\RiderProjects\\Labs\\laboratorky\\prakt1\\prakt1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC Admin\\RiderProjects\\Labs\\laboratorky\\prakt1\\prakt1.csproj",
+        "projectUniqueName": "D:\\RiderProjects\\Labs\\laboratorky\\prakt1\\prakt1.csproj",
         "projectName": "prakt1",
-        "projectPath": "C:\\Users\\PC Admin\\RiderProjects\\Labs\\laboratorky\\prakt1\\prakt1.csproj",
-        "packagesPath": "C:\\Users\\PC Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC Admin\\RiderProjects\\Labs\\laboratorky\\prakt1\\obj\\",
+        "projectPath": "D:\\RiderProjects\\Labs\\laboratorky\\prakt1\\prakt1.csproj",
+        "packagesPath": "C:\\Users\\slavi\\.nuget\\packages\\",
+        "outputPath": "D:\\RiderProjects\\Labs\\laboratorky\\prakt1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\slavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -103,8 +91,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\PC Admin\\RiderProjects\\Labs\\laboratorky\\ClassLibrary1\\ClassLibrary1.csproj": {
-                "projectPath": "C:\\Users\\PC Admin\\RiderProjects\\Labs\\laboratorky\\ClassLibrary1\\ClassLibrary1.csproj"
+              "D:\\RiderProjects\\Labs\\laboratorky\\ClassLibrary1\\ClassLibrary1.csproj": {
+                "projectPath": "D:\\RiderProjects\\Labs\\laboratorky\\ClassLibrary1\\ClassLibrary1.csproj"
               }
             }
           }
@@ -129,30 +117,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.12, 6.0.12]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.12, 6.0.12]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.12, 6.0.12]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.12, 6.0.12]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

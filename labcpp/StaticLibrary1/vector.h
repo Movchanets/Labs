@@ -5,15 +5,16 @@
 
 class Point {
 private:
-    int x;
-    int y;
+    double x;
+    double y;
 public:
     Point();
-    Point(int x, int y);
-    int getX() const;
-    void setX(int x);
-    int getY() const;
-    void setY(int y);
+    Point(double x, double y) : x(x), y(y) {}
+    double getX() const;
+    void setX(double x);
+    double getY() const;
+    void setY(double y);
+    bool operator!() const;
     friend std::ostream& operator<<(std::ostream& os, const Point& point);
 };
 
@@ -34,8 +35,21 @@ private:
     Point a;
     Point b;
 public:
+    Vector operator/(double number) const ;
+
+    friend Vector operator/(double number,  Vector& vector) ;
+
+    Vector operator+(const Vector& other) const ;
+
+    bool operator>(const Vector& other) const ;
+
+    bool operator<(const Vector& other) const;
+    double Length() const ;
+    bool operator!() const ;
+    Vector operator--(int);
     Vector();
     Vector(Vector& vector);
+    Vector(const Vector& vector);
     Vector(Point a, Point b);
     Point getA() const;
     void setA(Point a);

@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r0tq1Utc3kxmqkMhMbV49/Kq9cMz9QNGa+OSKvDb3Ed5Do/r0vE/J7Eu7TnMYdzgZVg2g6rUeRYNQDsFTYigNg==",
+  "dgSpecHash": "cEP491SxcBWbwpJ1BXnyc0jLdoqmcEmx4mbglMxWdyil04dfaf0RwUU++cI69x0DEaiJjGoAEgsvwDe29Lpoog==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC Admin\\RiderProjects\\Labs\\laboratorky\\ClassLibrary1\\ClassLibrary1.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\PC Admin\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.12\\microsoft.netcore.app.ref.6.0.12.nupkg.sha512",
-    "C:\\Users\\PC Admin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.12\\microsoft.windowsdesktop.app.ref.6.0.12.nupkg.sha512",
-    "C:\\Users\\PC Admin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.12\\microsoft.aspnetcore.app.ref.6.0.12.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\RiderProjects\\Labs\\laboratorky\\ClassLibrary1\\ClassLibrary1.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -16,3 +16,21 @@ C:\Users\PC Admin\RiderProjects\Labs\laboratorky\prakt1\obj\Debug\net6.0\ref\pra
 C:\Users\PC Admin\RiderProjects\Labs\laboratorky\prakt1\bin\Debug\net6.0\ClassLibrary1.dll
 C:\Users\PC Admin\RiderProjects\Labs\laboratorky\prakt1\bin\Debug\net6.0\ClassLibrary1.pdb
 C:\Users\PC Admin\RiderProjects\Labs\laboratorky\prakt1\obj\Debug\net6.0\prakt1.csproj.CopyComplete
+D:\RiderProjects\Labs\laboratorky\prakt1\bin\Debug\net6.0\prakt1.exe
+D:\RiderProjects\Labs\laboratorky\prakt1\bin\Debug\net6.0\prakt1.deps.json
+D:\RiderProjects\Labs\laboratorky\prakt1\bin\Debug\net6.0\prakt1.runtimeconfig.json
+D:\RiderProjects\Labs\laboratorky\prakt1\bin\Debug\net6.0\prakt1.dll
+D:\RiderProjects\Labs\laboratorky\prakt1\bin\Debug\net6.0\prakt1.pdb
+D:\RiderProjects\Labs\laboratorky\prakt1\bin\Debug\net6.0\ClassLibrary1.dll
+D:\RiderProjects\Labs\laboratorky\prakt1\bin\Debug\net6.0\ClassLibrary1.pdb
+D:\RiderProjects\Labs\laboratorky\prakt1\obj\Debug\net6.0\prakt1.csproj.AssemblyReference.cache
+D:\RiderProjects\Labs\laboratorky\prakt1\obj\Debug\net6.0\prakt1.GeneratedMSBuildEditorConfig.editorconfig
+D:\RiderProjects\Labs\laboratorky\prakt1\obj\Debug\net6.0\prakt1.AssemblyInfoInputs.cache
+D:\RiderProjects\Labs\laboratorky\prakt1\obj\Debug\net6.0\prakt1.AssemblyInfo.cs
+D:\RiderProjects\Labs\laboratorky\prakt1\obj\Debug\net6.0\prakt1.csproj.CoreCompileInputs.cache
+D:\RiderProjects\Labs\laboratorky\prakt1\obj\Debug\net6.0\prakt1.csproj.CopyComplete
+D:\RiderProjects\Labs\laboratorky\prakt1\obj\Debug\net6.0\prakt1.dll
+D:\RiderProjects\Labs\laboratorky\prakt1\obj\Debug\net6.0\refint\prakt1.dll
+D:\RiderProjects\Labs\laboratorky\prakt1\obj\Debug\net6.0\prakt1.pdb
+D:\RiderProjects\Labs\laboratorky\prakt1\obj\Debug\net6.0\prakt1.genruntimeconfig.cache
+D:\RiderProjects\Labs\laboratorky\prakt1\obj\Debug\net6.0\ref\prakt1.dll
