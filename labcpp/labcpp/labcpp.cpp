@@ -53,8 +53,28 @@ void Input(Vector& vector) {
     vector.setB(Point(x2, y2));
 }
 
+
+
+class MyClass
+{
+public:
+    void Print (std::string str)
+    {
+        std::cout << str <<std::endl;
+    }
+    int o1;
+    MyClass() { Print("Standart");  }
+    MyClass(int o1) { Print("o1");this->o1 = o1;  }
+    MyClass(const MyClass& other) {Print("const");  this->o1 = other.o1;  }
+//    MyClass(MyClass obj) {Print("obj"); this->o1 = obj.o1;  }
+};
 int main(int argc, char* argv[])
 {
+    MyClass myObj();
+  //  MyClass myObj3 = new MyClass();	
+
+
+    
     // Vector vector;
     // while (true)
     // {
@@ -69,22 +89,22 @@ int main(int argc, char* argv[])
     //     }
     //     system("cls");
     // }
-    Vector vector1(Point(1, 1), Point(2, 2));
-    std::cout << "vector1 / double" << std::endl;
-    vector1 = vector1 / 2.5;
-    std::cout << vector1 << std::endl;
-    std::cout << "double / vector" << std::endl;
-    vector1 = 1.5 / vector1;
-    std::cout << vector1 << std::endl;
-    Vector vector2(Point(1, 1), Point(2, 2));
-    std::cout << "vector1 + vector2" << std::endl;
-    vector1 = vector1 + vector2;
-    std::cout << vector1 << std::endl;
-    std::cout << "vector>vector2: " << (vector1 > vector2) << std::endl;
-    std::cout << "vector--" << std::endl;
-    std::cout << vector2 << std::endl;
-    std::cout << (vector2--)<< " : returned old value" << std::endl;
-    std::cout << vector2 << " : new value" << std::endl;
-    std::cout << "!vector :" <<std::boolalpha<< !vector2 << std::endl;
+    // Vector vector1(Point(1, 1), Point(2, 2));
+    // std::cout << "vector1 / double" << std::endl;
+    // vector1 = vector1 / 2.5;
+    // std::cout << vector1 << std::endl;
+    // std::cout << "double / vector" << std::endl;
+    // vector1 = 1.5 / vector1;
+    // std::cout << vector1 << std::endl;
+    // Vector vector2(Point(1, 1), Point(2, 2));
+    // std::cout << "vector1 + vector2" << std::endl;
+    // vector1 = vector1 + vector2;
+    // std::cout << vector1 << std::endl;
+    // std::cout << "vector>vector2: " << (vector1 > vector2) << std::endl;
+    // std::cout << "vector--" << std::endl;
+    // std::cout << vector2 << std::endl;
+    // std::cout << (vector2--)<< " : returned old value" << std::endl;
+    // std::cout << vector2 << " : new value" << std::endl;
+    // std::cout << "!vector :" <<std::boolalpha<< !vector2 << std::endl;
     return 0;
 }
