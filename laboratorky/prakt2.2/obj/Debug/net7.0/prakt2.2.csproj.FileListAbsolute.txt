@@ -1,0 +1,15 @@
+D:\RiderProjects\Labs\laboratorky\prakt2.2\bin\Debug\net7.0\prakt2.2.exe
+D:\RiderProjects\Labs\laboratorky\prakt2.2\bin\Debug\net7.0\prakt2.2.deps.json
+D:\RiderProjects\Labs\laboratorky\prakt2.2\bin\Debug\net7.0\prakt2.2.runtimeconfig.json
+D:\RiderProjects\Labs\laboratorky\prakt2.2\bin\Debug\net7.0\prakt2.2.dll
+D:\RiderProjects\Labs\laboratorky\prakt2.2\bin\Debug\net7.0\prakt2.2.pdb
+D:\RiderProjects\Labs\laboratorky\prakt2.2\obj\Debug\net7.0\prakt2.2.csproj.AssemblyReference.cache
+D:\RiderProjects\Labs\laboratorky\prakt2.2\obj\Debug\net7.0\prakt2.2.GeneratedMSBuildEditorConfig.editorconfig
+D:\RiderProjects\Labs\laboratorky\prakt2.2\obj\Debug\net7.0\prakt2.2.AssemblyInfoInputs.cache
+D:\RiderProjects\Labs\laboratorky\prakt2.2\obj\Debug\net7.0\prakt2.2.AssemblyInfo.cs
+D:\RiderProjects\Labs\laboratorky\prakt2.2\obj\Debug\net7.0\prakt2.2.csproj.CoreCompileInputs.cache
+D:\RiderProjects\Labs\laboratorky\prakt2.2\obj\Debug\net7.0\prakt2.2.dll
+D:\RiderProjects\Labs\laboratorky\prakt2.2\obj\Debug\net7.0\refint\prakt2.2.dll
+D:\RiderProjects\Labs\laboratorky\prakt2.2\obj\Debug\net7.0\prakt2.2.pdb
+D:\RiderProjects\Labs\laboratorky\prakt2.2\obj\Debug\net7.0\prakt2.2.genruntimeconfig.cache
+D:\RiderProjects\Labs\laboratorky\prakt2.2\obj\Debug\net7.0\ref\prakt2.2.dll

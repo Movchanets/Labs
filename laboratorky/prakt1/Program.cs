@@ -51,12 +51,11 @@ namespace laboratorky
                 vector.B.Y = y2;
             }
         }   
-       static public void Input(ref StringNumber stringNumber)
+       static public void Input()
        {
-           if(stringNumber == null)
-           {
-               stringNumber = new StringNumber();
-           }
+           
+          StringNumber    stringNumber = new StringNumber();
+          
            bool isInt = false;
             int choice = 0;
             while (true)
@@ -172,31 +171,29 @@ namespace laboratorky
             // }
             //
             // Vector[] vectors = InputVectors();
-          StringNumber stringNumber1 = new StringNumber("123");
-          StringNumber stringNumber2 = new StringNumber("232");
-          Console.WriteLine((stringNumber1 ^ stringNumber2) + " : ^ додавання як числа");
-          Console.WriteLine(stringNumber1 *32 + " : * добавлення 32 в кінець 123 * 32");
-          Console.WriteLine(32 * stringNumber1  + " : * добавлення 32 в початок  32  * 123 ");
-            Console.WriteLine(stringNumber1 + stringNumber2 + " : + додавання як строки");
-            Console.WriteLine((stringNumber1 == stringNumber2 )+ " : == перевірка на рівність");
-            Console.WriteLine((stringNumber1 != stringNumber2 )+ " : != перевірка на нерівність");
-            Console.WriteLine((stringNumber1--) + " : -- пост декремент");
-            Console.WriteLine((--stringNumber1) + " : -- пре декремент");
-            if (stringNumber1)
-            {
-                Console.WriteLine("true");
-            }
-            else
-            {
-                Console.WriteLine("false");
-            }
-            
-          
+          // StringNumber stringNumber1 = new StringNumber("123");
+          // StringNumber stringNumber2 = new StringNumber("232");
+          // Console.WriteLine((stringNumber1 ^ stringNumber2) + " : 123 + 232 ^ додавання як числа");
+          // //Console.WriteLine(stringNumber1 *32 + " : * добавлення 32 в кінець 123 * 32");
+          //   //Console.WriteLine(32 * stringNumber1  + " : * добавлення 32 в початок  32  * 123 ");
+          //   Console.WriteLine(stringNumber1 + stringNumber2 + " : + додавання як строки");
+          //   Console.WriteLine((stringNumber1 == stringNumber2 )+ " : == перевірка на рівність");
+          //   Console.WriteLine((stringNumber1 != stringNumber2 )+ " : != перевірка на нерівність");
+          //   Console.WriteLine((stringNumber1--) + " : -- пост декремент");
+          //   Console.WriteLine((--stringNumber1) + " : -- пре декремент");
+          //   if (stringNumber1)
+          //   {
+          //       Console.WriteLine("true");
+          //   }
+          //   else
+          //   {
+          //       Console.WriteLine("false");
+          //   }
+          //   
+          StringNumber stringNumber = new StringNumber();
+          Input();
            StringNumber [] stringNumbers = InputStringNumbers();
-             for (int i = 0; i < stringNumbers.Length; i++)
-            {
-                Console.WriteLine(stringNumbers[i]);
-             }
+          
             
             // Vector vector1 = new Vector(new Point(1, 1), new Point(2, 2));
             // Console.WriteLine("vector1 / double");
