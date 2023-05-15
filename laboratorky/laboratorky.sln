@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prakt2.3", "prakt2.3\prakt2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prakt2_4", "prakt2_4\prakt2_4.csproj", "{6012B373-F7E8-40AB-A5C8-6E2F1C8F48F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prakt2_5", "prakt2_5\prakt2_5.csproj", "{26F935E0-33C1-4D0B-B2D5-D885E8525699}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{6012B373-F7E8-40AB-A5C8-6E2F1C8F48F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6012B373-F7E8-40AB-A5C8-6E2F1C8F48F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6012B373-F7E8-40AB-A5C8-6E2F1C8F48F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F935E0-33C1-4D0B-B2D5-D885E8525699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F935E0-33C1-4D0B-B2D5-D885E8525699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F935E0-33C1-4D0B-B2D5-D885E8525699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F935E0-33C1-4D0B-B2D5-D885E8525699}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
